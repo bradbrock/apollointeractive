@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.clfx:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+body{
+	background: #333333 url('img/apollo.jpg') repeat fixed;
+	background-size: cover;
+}
+h1, h2, h3, p, nav{
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+}
+h1, h2{
+	margin-bottom: 12px;
+}
+p{
+	line-height: 1.2em;
+}
+.wrap{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	background-color: rgba(0,0,0,.65);
+}
+.logo{
+	margin: 35px 0 20px 20px;
+}
+nav{
+	display: inline-block;
+	width: 170px;
+	margin: 12px auto;
+	vertical-align: middle;
+	font-size: .85em;
+	text-transform: uppercase;
+	color: #fff;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	margin-bottom: 8px;
+	padding: 2px 0 2px 16px;
+	border-left: 4px #33ccff solid;
+	
+}
+nav ul li:last-of-type{
+	margin-bottom: 0;
+}
+.content{
+	display: inline-block;
+	width: 100%;
+	max-width: 960px;
+	margin: 45px 0;
+	vertical-align: middle;
+}
+.content h1, .content h2, .content p{
+	font-weight: 400;
+}
+.content h1{
+	font-weight: 800;
+	text-transform: uppercase;
+}
+footer{
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: .9em;
+}
+footer p{
+	display: inline;
+}
+footer a{
+	color: #33ccff;
+}
